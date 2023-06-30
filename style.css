@@ -1,0 +1,68 @@
+.contain{
+   display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+position: relative;
+top: 100px;
+
+
+
+}
+
+.bx{
+   
+  
+
+}
+
+
+select{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+    border: 2px solid black;
+    border-radius: 5px;
+outline: none;
+}
+
+.contain .bx select{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: "DejaVu Sans Bold", sans-serif;
+
+}
+
+select option{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    font-family: "DejaVu Sans Bold", sans-serif;
+}
+
+
+
+@media (max-width:375px){
+    option{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      width: 100%;
+    }
+
+    select{
+        width: 100%;
+    }
+}
+
+
+#element{
+
+    color: black;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+}
